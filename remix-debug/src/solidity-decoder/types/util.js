@@ -1,6 +1,6 @@
 'use strict'
-var ethutil = require('ethereumjs-util')
-var BN = require('ethereumjs-util').BN
+var ethutil = require('newchainjs-util')
+var BN = require('newchainjs-util').BN
 
 module.exports = {
   readFromStorage: readFromStorage,

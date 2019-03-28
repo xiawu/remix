@@ -1,7 +1,7 @@
 'use strict'
 var RefType = require('./RefType')
 var util = require('./util')
-var ethutil = require('ethereumjs-util')
+var ethutil = require('newchainjs-util')
 
 class Mapping extends RefType {
   constructor (underlyingTypes, location, fullType) {
