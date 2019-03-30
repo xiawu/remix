@@ -1,5 +1,5 @@
 'use strict'
-var ethutil = require('ethereumjs-util')
+var ethutil = require('newchainjs-util')
 
 /*
  contains misc util: @TODO should be splitted

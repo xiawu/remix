@@ -3,7 +3,7 @@ var ethers = require('ethers')
 var helper = require('./txHelper')
 var asyncJS = require('async')
 var solcLinker = require('solc/linker')
-var ethJSUtil = require('ethereumjs-util')
+var ethJSUtil = require('newchainjs-util')
 
 module.exports = {
 

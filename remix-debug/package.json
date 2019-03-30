@@ -19,7 +19,7 @@
   "main": "./index.js",
   "dependencies": {
     "commander": "^2.19.0",
-    "newchainjs-util": "^0.1.0",
+    "newchainjs-util": "latest",
     "ethereumjs-vm": "2.4.0",
     "fast-async": "^6.1.2",
     "remix-lib": "0.4.1"

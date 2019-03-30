@@ -1,6 +1,6 @@
 'use strict'
 var yo = require('yo-yo')
-var BN = require('ethereumjs-util').BN
+var BN = require('newchainjs-util').BN
 
 module.exports = {
   formatSelf: formatSelf,

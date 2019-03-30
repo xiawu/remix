@@ -1,5 +1,5 @@
 'use strict'
-var Web3 = require('web3')
+var Web3 = require('newchain-web3')
 
 module.exports = {
   loadWeb3: function (url) {

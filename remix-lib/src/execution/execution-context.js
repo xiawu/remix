@@ -1,8 +1,8 @@
 'use strict'
-var Web3 = require('web3')
+var Web3 = require('newchain-web3')
 var EventManager = require('../eventManager')
 var EthJSVM = require('ethereumjs-vm')
-var ethUtil = require('ethereumjs-util')
+var ethUtil = require('newchainjs-util')
 var StateManager = require('ethereumjs-vm/dist/stateManager')
 var Web3VMProvider = require('../web3Provider/web3VmProvider')
 
