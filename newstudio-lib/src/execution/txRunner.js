@@ -1,6 +1,6 @@
 'use strict'
-var EthJSTX = require('ethereumjs-tx')
-var EthJSBlock = require('ethereumjs-block')
+var EthJSTX = require('newchainjs-tx')
+var EthJSBlock = require('newchainjs-block')
 var ethJSUtil = require('newchainjs-util')
 var BN = ethJSUtil.BN
 var executionContext = require('./execution-context')
