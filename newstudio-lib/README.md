@@ -1,4 +1,4 @@
-# `remix-lib`
+# `newstudio-lib`
 
 Provides:
 
