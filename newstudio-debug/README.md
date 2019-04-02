@@ -1,6 +1,6 @@
-# `remix-debug`
+# `newstudio-debug`
 
-remix-debug wrap other remix-* libraries and can be used to debug Ethereum transactions.
+newstudio-debug wrap other remix-* libraries and can be used to debug Ethereum transactions.
 
 + [Installation](#installation)
 + [Development](#development)
@@ -9,14 +9,14 @@ remix-debug wrap other remix-* libraries and can be used to debug Ethereum trans
 
 
 ```bash
-npm install remix-debug
+npm install newstudio-debug
 ```
 
 ## Development
 
 ```javascript
-var Debugger = require('remix-debug').EthDebugger
-var BreakpointManager = require('remix-debug').BreakpointManager
+var Debugger = require('newstudio-debug').EthDebugger
+var BreakpointManager = require('newstudio-debug').BreakpointManager
 
 var debugger = new Debugger({
   compilationResult: () => {
