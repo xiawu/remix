@@ -1,6 +1,6 @@
 'use strict'
 
-var remixLib = require('remix-lib')
+var remixLib = require('newstudio-lib')
 var util = remixLib.util
 
 var nodeTypes = {
