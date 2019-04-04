@@ -1,6 +1,6 @@
 {
   "name": "newstudio-tests",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Tests for the NewStudio",
   "main": "./src/index.js",
   "contributors": [
@@ -14,7 +14,7 @@
     }
   ],
   "bin": {
-    "remix-tests": "./bin/remix-tests"
+    "newstudio-tests": "./bin/newstudio-tests"
   },
   "scripts": {
     "lint": "standard",
