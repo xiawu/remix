@@ -1,6 +1,6 @@
 'use strict'
 var DropdownPanel = require('./DropdownPanel')
-var remixSolidity = require('remix-solidity')
+var remixSolidity = require('newstudio-solidity')
 var localDecoder = remixSolidity.localDecoder
 var solidityTypeFormatter = require('./SolidityTypeFormatter')
 var remixCore = require('remix-core')

@@ -1,4 +1,4 @@
-var remixLib = require('remix-lib')
+var remixLib = require('newstudio-lib')
 var global = remixLib.global
 var EventManager = remixLib.EventManager
 var traceHelper = remixLib.helpers.trace
