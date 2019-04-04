@@ -1,8 +1,8 @@
-var Web3 = require('web3')
+var Web3 = require('newchain-web3')
 
 var Accounts = function () {
   this.web3 = new Web3()
-  // TODO: make it random and/or use remix-libs
+  // TODO: make it random and/or use newstudio-libs
   this.accounts = [this.web3.eth.accounts.create(['abcd']), this.web3.eth.accounts.create(['ef12']), this.web3.eth.accounts.create(['ef34'])]
 
   this.accounts[this.accounts[0].address.toLowerCase()] = this.accounts[0]

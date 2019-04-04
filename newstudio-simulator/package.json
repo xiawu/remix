@@ -1,7 +1,7 @@
 {
-  "name": "remix-simulator",
-  "version": "0.1.1",
-  "description": "Ethereum IDE and tools for the web",
+  "name": "newstudio-simulator",
+  "version": "0.1.0",
+  "description": "NewChain IDE and tools for the web",
   "contributors": [
     {
       "name": "Iuri Matias",
@@ -22,9 +22,9 @@
     "express-ws": "^4.0.0",
     "fast-async": "^6.3.7",
     "merge": "^1.2.0",
-    "remix-lib": "0.4.1",
+    "remix-lib": "latest",
     "time-stamp": "^2.0.0",
-    "newchain-web3": "^0.1.0"
+    "newchain-web3": "latest"
   },
   "devDependencies": {
     "babel-eslint": "^7.1.1",

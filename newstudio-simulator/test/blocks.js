@@ -1,5 +1,5 @@
 /* global describe, before, it */
-var Web3 = require('web3')
+var Web3 = require('newchain-web3')
 var RemixSim = require('../index.js')
 let web3 = new Web3()
 var assert = require('assert')
