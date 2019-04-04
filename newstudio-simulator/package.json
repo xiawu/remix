@@ -1,6 +1,6 @@
 {
   "name": "newstudio-simulator",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "NewChain IDE and tools for the web",
   "contributors": [
     {
@@ -39,7 +39,7 @@
   },
   "bin": {
     "ethsim": "./bin/ethsim",
-    "remix-simulator": "./bin/ethsim"
+    "newstudio-simulator": "./bin/ethsim"
   },
   "standard": {
     "ignore": [
