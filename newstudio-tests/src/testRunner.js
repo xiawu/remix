@@ -1,6 +1,6 @@
 var async = require('async')
 var changeCase = require('change-case')
-var Web3 = require('web3')
+var Web3 = require('newchain-web3')
 
 function getFunctionFullName (signature, methodIdentifiers) {
   for (var method in methodIdentifiers) {

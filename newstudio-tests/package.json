@@ -1,7 +1,7 @@
 {
-  "name": "remix-tests",
-  "version": "0.1.1",
-  "description": "Tests for the Ethereum tool suite Remix",
+  "name": "newstudio-tests",
+  "version": "0.1.0",
+  "description": "Tests for the NewStudio",
   "main": "./src/index.js",
   "contributors": [
     {
@@ -40,11 +40,11 @@
     "change-case": "^3.0.1",
     "colors": "^1.1.2",
     "commander": "^2.13.0",
-    "remix-lib": "0.4.1",
-    "remix-simulator": "0.1.1",
-    "remix-solidity": "0.3.1",
+    "newstudio-lib": "latest",
+    "newstudio-simulator": "latest",
+    "newstudio-solidity": "latest",
     "signale": "^1.2.1",
-    "newchain-web3": "^0.1.0",
+    "newchain-web3": "latest",
     "winston": "^3.0.0"
   },
   "peerDependencies": {

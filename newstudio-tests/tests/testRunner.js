@@ -1,11 +1,11 @@
 const async = require('async')
-const Web3 = require('web3')
+const Web3 = require('newchain-web3')
 const assert = require('assert')
 
 let Compiler = require('../src/compiler.js')
 let Deployer = require('../src/deployer.js')
 let TestRunner = require('../src/testRunner.js')
-const Provider = require('remix-simulator').Provider
+const Provider = require('newstudio-simulator').Provider
 
 function compileAndDeploy (filename, callback) {
   let web3 = new Web3()

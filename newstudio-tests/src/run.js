@@ -1,8 +1,8 @@
 const commander = require('commander')
-const Web3 = require('web3')
+const Web3 = require('newchain-web3')
 const RemixTests = require('./index.js')
 const fs = require('fs')
-const Provider = require('remix-simulator').Provider
+const Provider = require('newstudio-simulator').Provider
 const { Log } = require('./logger.js')
 const logger = new Log()
 const log = logger.logger
