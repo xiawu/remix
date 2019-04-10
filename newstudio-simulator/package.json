@@ -1,6 +1,6 @@
 {
   "name": "newstudio-simulator",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "NewChain IDE and tools for the web",
   "contributors": [
     {
@@ -24,7 +24,7 @@
     "merge": "^1.2.0",
     "remix-lib": "latest",
     "time-stamp": "^2.0.0",
-    "newchain-web3": "latest"
+    "web3": "1.0.0-beta.27"
   },
   "devDependencies": {
     "babel-eslint": "^7.1.1",

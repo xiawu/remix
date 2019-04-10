@@ -1,4 +1,4 @@
-var Web3 = require('newchain-web3')
+var Web3 = require('web3')
 
 var Accounts = function () {
   this.web3 = new Web3()
