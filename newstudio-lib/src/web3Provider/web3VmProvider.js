@@ -2,7 +2,7 @@ var util = require('../util')
 var uiutil = require('../helpers/uiHelper')
 var traceHelper = require('../helpers/traceHelper')
 var ethutil = require('newchainjs-util')
-var Web3 = require('newchain-web3')
+var Web3 = require('web3')
 
 function web3VmProvider () {
   var self = this
