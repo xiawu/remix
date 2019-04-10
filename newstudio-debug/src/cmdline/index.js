@@ -1,4 +1,4 @@
-var Web3 = require('newchain-web3')
+var Web3 = require('web3')
 var Debugger = require('../debugger/debugger.js')
 var ContextManager = require('./contextManager.js')
 var EventManager = require('events')
