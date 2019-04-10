@@ -1,6 +1,6 @@
 {
   "name": "newstudio-tests",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Tests for the NewStudio",
   "main": "./src/index.js",
   "contributors": [
@@ -44,7 +44,7 @@
     "newstudio-simulator": "latest",
     "newstudio-solidity": "latest",
     "signale": "^1.2.1",
-    "newchain-web3": "latest",
+    "web3": "1.0.0-beta.36",
     "winston": "^3.0.0"
   },
   "peerDependencies": {

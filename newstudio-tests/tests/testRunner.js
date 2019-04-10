@@ -1,5 +1,5 @@
 const async = require('async')
-const Web3 = require('newchain-web3')
+const Web3 = require('web3')
 const assert = require('assert')
 
 let Compiler = require('../src/compiler.js')

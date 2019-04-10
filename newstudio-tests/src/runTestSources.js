@@ -5,7 +5,7 @@ let Compiler = require('./compiler.js')
 let Deployer = require('./deployer.js')
 let TestRunner = require('./testRunner.js')
 
-const Web3 = require('newchain-web3')
+const Web3 = require('web3')
 const Provider = require('newstudio-simulator').Provider
 
 var createWeb3Provider = function () {
